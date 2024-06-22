@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-03T13:58:44 IDT" name="Default suite" finished-at="2024-06-03T13:58:55 IDT" duration-ms="11279">
+    <groups>
+    </groups>
+    <test started-at="2024-06-03T13:58:44 IDT" name="Default test" finished-at="2024-06-03T13:58:55 IDT" duration-ms="11279">
+      <class name="API.tests.Register">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:API.tests.Register@20e6c4dc]" started-at="2024-06-03T13:58:44 IDT" name="Setup" finished-at="2024-06-03T13:58:46 IDT" duration-ms="2090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="T01_successfulRegister()[pri:0, instance:API.tests.Register@20e6c4dc]" started-at="2024-06-03T13:58:46 IDT" name="T01_successfulRegister" description="successfulRegister" finished-at="2024-06-03T13:58:54 IDT" duration-ms="7813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T01_successfulRegister -->
+        <test-method signature="T02_unsuccessfulRegister()[pri:0, instance:API.tests.Register@20e6c4dc]" started-at="2024-06-03T13:58:54 IDT" name="T02_unsuccessfulRegister" description="unsuccessfulRegister" finished-at="2024-06-03T13:58:55 IDT" duration-ms="957" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T02_unsuccessfulRegister -->
+      </class> <!-- API.tests.Register -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

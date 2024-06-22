@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">   
+ <suite name="ValidateUsersExist"> 
+ 		<parameter name="perPage" value="4"/>
+        <parameter name="startPage" value="1"/>
+        <parameter name="totalUsers" value="5"/>
+        <parameter name="expectedEmails" value="michael.lawson@reqres.in,lindsay.ferguson@reqres.in"/>
+	<listeners>
+		<listener class-name="Common.utils.ListenerClass"></listener>
+	</listeners>
+	
+	<!--ValidateUsersExist -->
+	<test name="ValidateUsersExist">
+		<classes>
+			<class name="API.tests.ValidateUsersExist"/>
+		</classes>
+	</test> <!--ValidateUsersExist-->
+	
+</suite> <!-- Suite -->
